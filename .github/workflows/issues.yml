@@ -15,4 +15,4 @@ jobs:
           curl -s -X POST https://api.github.com/repos/$OWNER/$REPO/issues/$ISSUE_NUMBER/comments \
             -d '{"body":"Hello ${{ github.event.issue.user.login }}, thanks for your issue!"}'
             echo "Hello World!"
-            -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+
