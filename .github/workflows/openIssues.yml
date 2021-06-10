@@ -1,4 +1,4 @@
-ename: issue-greeter
+name: issue-greeter
 on:
   issues:
     types: [opened, edited]
