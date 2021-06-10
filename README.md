@@ -1,2 +1,2 @@
 # website02
-www.google.com.com.com
+www.google.com
